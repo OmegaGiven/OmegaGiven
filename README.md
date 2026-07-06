@@ -1,6 +1,6 @@
 # ABOUTME
 
-I love open source. I love homelabing. I love privacy. I love self sustainability.
+I love open source. I love homelabing. I love self sustainability.
 
 ## Building my own packaged OS (WIP)
 

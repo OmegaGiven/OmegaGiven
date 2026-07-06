@@ -8,7 +8,7 @@ Link to my ISO: Yet to be built
 
 - Settings manager: https://github.com/OmegaGiven/sway-settings-manager
 - Linux app 'store': https://github.com/OmegaGiven/linux-packages
-- system search overlay: https://github.com/OmegaGiven/OG-system-search
+- system search: https://github.com/OmegaGiven/OG-system-search
 - file manager: https://github.com/OmegaGiven/OG-file-manager
 - Sway: desktop env
 - Arch linux: OS
@@ -25,3 +25,10 @@ Link to my ISO: Yet to be built
 ## Trying to build a suite to replace googles suite of software (WIP)
 - v1: https://github.com/OmegaGiven/home-suite-home
 - v2: https://github.com/OmegaGiven/OG-suite
+
+## Go alias service (LIVE)
+- https://github.com/OmegaGiven/go-alias-rust
+
+## DB manager / api requester / inspector (WIP)
+
+Building anew from old project

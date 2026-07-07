@@ -31,5 +31,4 @@ website: https://omegagiven.github.io/OG-3dmodeler/
 - https://github.com/OmegaGiven/go-alias-rust
 
 ## DB manager / api requester / inspector (WIP)
-
-Building anew from old project
+- https://github.com/OmegaGiven/OG-TestDesk

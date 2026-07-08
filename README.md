@@ -4,29 +4,30 @@ I love open source. I love homelabing. I love self sustainability.
 
 ## OG-toolkit — rebuilding my whole desktop UX from scratch (WIP)
 
-Not just a window manager config — a real toolkit. Every app that makes up
-my desktop shares the same config, the same theming engine, and the same
-low-level Wayland plumbing, instead of being five unrelated scripts glued
-together. Change a color once, every app updates.
+A full desktop application suite, not a pile of dotfiles — a settings app,
+app store, file manager, launcher, notification system, and (next) a
+taskbar, all built from the same shared foundation instead of being
+independent projects duct-taped together. Everything matches every other
+Linux desktop tool feature-for-feature, and where the popular defaults
+(waybar, most file managers) hit a wall, this suite goes further instead
+of accepting the limitation.
 
 **[OG-toolkit](https://github.com/OmegaGiven/OG-toolkit)** — the shared
-crates everything else is built on:
-- `og-config` — one config schema, one source of truth, no per-app copies drifting out of sync
-- `og-theme` — deterministic per-app color variance (adjacent windows tint slightly differently so you can tell them apart at a glance, without breaking the shared palette), gradient theming, instant propagation when you change a color anywhere
-- `og-wayland` — a from-scratch cross-application drag-and-drop implementation (iced/winit ship *zero* Wayland DnD support — this opens a second raw protocol connection to make dragging a file out of the file manager into a browser actually work), plus a reusable layer-shell overlay bootstrap for effects like the notification popup
+crates every app is built on: one config schema, one theming engine, and
+a shared Wayland integration layer, so the whole suite reskins itself
+from a single place and every app gets new capability the moment the
+shared layer gets it.
 
-**The apps**, each its own repo, each themeable from one place:
+**The apps**, each its own repo, each part of the same suite:
 - [og-settings](https://github.com/OmegaGiven/sway-settings-manager) — the whole suite's control panel
 - [og-apps](https://github.com/OmegaGiven/linux-packages) — pacman/AUR/Flatpak store
-- [og-files](https://github.com/OmegaGiven/OG-file-manager) — file manager with real cross-app drag-and-drop and a preview pane that doesn't rearrange the UI every time you click something
-- [og-search](https://github.com/OmegaGiven/OG-system-search) — app launcher / instant `go/<alias>` shortcuts
-- [og-notify](https://github.com/OmegaGiven/OG-notify) — themed notification effects (rain, glow, wind, sparkle) on a transparent full-screen overlay
-- [og-links](https://github.com/OmegaGiven/OG-links) — the local `go/` redirect service backing og-search's shortcuts
+- [og-files](https://github.com/OmegaGiven/OG-file-manager) — file manager
+- [og-search](https://github.com/OmegaGiven/OG-system-search) — app launcher / instant shortcuts
+- [og-notify](https://github.com/OmegaGiven/OG-notify) — themed notification effects system
+- [og-links](https://github.com/OmegaGiven/OG-links) — local shortcut redirect service
 
-**Next up: [og-bar](https://github.com/OmegaGiven/OG-bar)** — replacing waybar
-with something built the same way, fixing the one thing waybar genuinely
-can't do (actually centering bar content, on any screen edge) and fully
-customizable live from a popout menu — no config file required.
+**Next up: [og-bar](https://github.com/OmegaGiven/OG-bar)** — a taskbar to
+replace waybar, matching everything it does and fixing what it can't.
 
 Desktop: Sway · OS: Arch Linux
 

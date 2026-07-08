@@ -35,6 +35,7 @@ website: https://omegagiven.github.io/OG-3dmodeler/
 - https://github.com/OmegaGiven/OG-3dmodeler
 
 ## Where I write my stories and such as I love writing Fantasy short stories (LIVE)
+website: https://omegagiven.github.io/omega-stories/
 - https://github.com/OmegaGiven/omega-stories
 
 ## CRM tool for small businesses (BETA Testing stage)

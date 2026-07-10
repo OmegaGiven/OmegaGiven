@@ -1,5 +1,21 @@
-# ABOUTME
-
+              @@@@@@@@@@@@@
+           @@@@@@@@@@@@@@@@@@@
+         @@@@@@ooooo:ooooo@@@@@@
+        @@@@@oo:::::::::::oo@@@@@
+       @@@@oo:::...###...:::oo@@@@
+      @@@@oo:::...**##....:::oo@@@@
+      @@@ooo::.....###.....::ooo@@@
+      @@@oo:::.....###.....:::oo@@@
+      @@@ oo::.....###.....::oo @@@
+      @@@@ooo::....###....::ooo@@@@
+       @@@@ooo::::.###.::::ooo@@@@
+        @@@@@oooo:::::::oooo@@@@@
+         @@@@@@ ooooooooo @@@@@@
+           @@@@@@       @@@@@@
+          @@@@@@         @@@@@@
+        @@@@@               @@@@@
+      @@@@@                   @@@@@
+      
 I love open source. I love homelabing. I love self sustainability.
 
 ## OG-toolkit — rebuilding my whole desktop UX from scratch (WIP)

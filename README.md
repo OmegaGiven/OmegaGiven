@@ -83,6 +83,8 @@ website: https://omegagiven.github.io/omega-stories/
 website: https://omegagiven.github.io/OG-note/
 - https://github.com/OmegaGiven/OG-note
 
+<img width="503" height="752" alt="image" src="https://github.com/user-attachments/assets/0b490a2e-6e97-4fbb-af1e-f2a51403b101" />
+
 ## CRM tool for small businesses (BETA Testing stage)
 **Stack:** TypeScript · JavaScript · HTML · [NestJS](https://nestjs.com/) + Prisma (backend, Postgres via Supabase) · React Native / [Expo](https://expo.dev/) (mobile)
 

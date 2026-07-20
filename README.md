@@ -71,6 +71,9 @@ website: https://omegagiven.github.io/omega-stories/
 
 <img width="1146" height="1399" alt="image" src="https://github.com/user-attachments/assets/7bb78c3e-9029-4ae5-9238-82ed6a639aca" />
 
+## OG-Note A Rich Text Editor that has all the features i wish other note apps
+website: https://omegagiven.github.io/OG-note/
+- https://github.com/OmegaGiven/OG-note
 
 ## CRM tool for small businesses (BETA Testing stage)
 - https://github.com/OmegaGiven/OG-fulfillment

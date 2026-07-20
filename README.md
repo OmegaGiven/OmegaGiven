@@ -78,20 +78,20 @@ website: https://omegagiven.github.io/omega-stories/
 <img width="1146" height="1399" alt="image" src="https://github.com/user-attachments/assets/7bb78c3e-9029-4ae5-9238-82ed6a639aca" />
 
 ## OG-Note A Rich Text Editor that has all the features i wish other note apps
-**Stack:** Svelte · TypeScript · [Tauri](https://tauri.app/) (desktop shell) · [Tiptap](https://tiptap.dev/) (editor) · Yjs (CRDT sync)
+**Stack:** Svelte · TypeScript · HTML/CSS · [Tauri](https://tauri.app/) (desktop shell, native Kotlin/Swift mobile shims) · [Tiptap](https://tiptap.dev/) (editor) · Yjs (CRDT sync)
 
 website: https://omegagiven.github.io/OG-note/
 - https://github.com/OmegaGiven/OG-note
 
 ## CRM tool for small businesses (BETA Testing stage)
-**Stack:** TypeScript · [NestJS](https://nestjs.com/) + Prisma (backend, Postgres via Supabase) · React Native / [Expo](https://expo.dev/) (mobile)
+**Stack:** TypeScript · JavaScript · HTML · [NestJS](https://nestjs.com/) + Prisma (backend, Postgres via Supabase) · React Native / [Expo](https://expo.dev/) (mobile)
 
 - https://github.com/OmegaGiven/OG-fulfillment
 
 ## Trying to build a suite to replace googles suite of software (WIP)
 **Stack:**
-- v1 — Rust + [Axum](https://github.com/tokio-rs/axum) (server, Postgres) · React Native/Expo (mobile) · Loro (CRDT sync)
-- v2 — Rust + Axum (backend, Postgres) · Svelte/SvelteKit + TypeScript (apps: admin, audio, feed, files, notes)
+- v1 — Rust + [Axum](https://github.com/tokio-rs/axum) (server, Postgres) · TypeScript · React (React Native/Expo, mobile) · Loro (CRDT sync)
+- v2 — Rust + Axum (backend, Postgres) · Svelte/SvelteKit · TypeScript · JavaScript · HTML/CSS · [Tauri](https://tauri.app/) (desktop/mobile shell for the audio and notes apps, native Kotlin/Swift shims)
 
 - v1: https://github.com/OmegaGiven/home-suite-home
 - v2: https://github.com/OmegaGiven/OG-suite

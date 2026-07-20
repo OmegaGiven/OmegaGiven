@@ -28,6 +28,8 @@ I love open source. I love homelabing. I love self sustainability.
 
 ## OG-toolkit — rebuilding my whole desktop UX from scratch (WIP)
 
+**Stack:** Rust · [Iced](https://iced.rs/) (GUI) · shared crates (og-config, og-theme, og-wayland) · Wayland/Sway · Axum, zbus, D-Bus for system services
+
 A full desktop application suite, not a pile of dotfiles — a settings app,
 app store, file manager, launcher, notification system, and (next) a
 taskbar, all built from the same shared foundation instead of being
@@ -59,6 +61,8 @@ replace waybar, matching everything it does and fixing what it can't.
 Desktop: Sway · OS: Arch Linux
 
 ## My specific object 3d modeler (LIVE)
+**Stack:** TypeScript · React · Vite · [three.js](https://threejs.org/) (3D/CSG) · Konva (2D canvas)
+
 website: https://omegagiven.github.io/OG-3dmodeler/ 
 - https://github.com/OmegaGiven/OG-3dmodeler
 
@@ -66,24 +70,38 @@ website: https://omegagiven.github.io/OG-3dmodeler/
 
 
 ## Where I write my stories and such as I love writing Fantasy short stories (LIVE)
+**Stack:** [Hugo](https://gohugo.io/) (static site generator) · HTML/CSS/JS themes
+
 website: https://omegagiven.github.io/omega-stories/
 - https://github.com/OmegaGiven/omega-stories
 
 <img width="1146" height="1399" alt="image" src="https://github.com/user-attachments/assets/7bb78c3e-9029-4ae5-9238-82ed6a639aca" />
 
 ## OG-Note A Rich Text Editor that has all the features i wish other note apps
+**Stack:** Svelte · TypeScript · [Tauri](https://tauri.app/) (desktop shell) · [Tiptap](https://tiptap.dev/) (editor) · Yjs (CRDT sync)
+
 website: https://omegagiven.github.io/OG-note/
 - https://github.com/OmegaGiven/OG-note
 
 ## CRM tool for small businesses (BETA Testing stage)
+**Stack:** TypeScript · [NestJS](https://nestjs.com/) + Prisma (backend, Postgres via Supabase) · React Native / [Expo](https://expo.dev/) (mobile)
+
 - https://github.com/OmegaGiven/OG-fulfillment
 
 ## Trying to build a suite to replace googles suite of software (WIP)
+**Stack:**
+- v1 — Rust + [Axum](https://github.com/tokio-rs/axum) (server, Postgres) · React Native/Expo (mobile) · Loro (CRDT sync)
+- v2 — Rust + Axum (backend, Postgres) · Svelte/SvelteKit + TypeScript (apps: admin, audio, feed, files, notes)
+
 - v1: https://github.com/OmegaGiven/home-suite-home
 - v2: https://github.com/OmegaGiven/OG-suite
 
 ## Go alias service (LIVE)
+**Stack:** Rust · [actix-web](https://actix.rs/)
+
 - https://github.com/OmegaGiven/go-alias-rust
 
 ## DB manager / api requester / inspector (WIP)
+**Stack:** Rust · [Iced](https://iced.rs/) (desktop GUI) · sqlx (Postgres/SQLite) · reqwest
+
 - https://github.com/OmegaGiven/OG-TestDesk

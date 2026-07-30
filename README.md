@@ -28,6 +28,7 @@ I love open source. I love homelabing. I love self sustainability.
 
 ## OG-ai-rpg — self-hosted AI companion/roleplay app, built in a weekend (LIVE)
 **Stack:** Node.js/Express · SQLite · vanilla JS · [koboldcpp](https://github.com/LostRuins/koboldcpp) (local LLM) · [AUTOMATIC1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui) (local Stable Diffusion)
+<img width="628" height="1347" alt="image" src="https://github.com/user-attachments/assets/2bd96b09-1a95-4944-a4d0-1e3da038cbf5" />
 
 Chat one-on-one with AI characters or run multi-character scenes — AI-generated
 personalities, appearance, and portraits, all running on local models with

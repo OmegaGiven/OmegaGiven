@@ -23,8 +23,33 @@
 # OmegaGiven
 
 </div>
-      
-I love open source. I love homelabing. I love self sustainability.
+
+## Projects
+
+**Live:** [OG-DB](#og-db) &middot; [OG-ai-rpg](#og-ai-rpg) &middot; [3D Modeler](#og-3dmodeler) &middot; [Omega Stories](#omega-stories) &middot; [OG-Note](#og-note) &middot; [go-alias](#go-alias)
+
+**In progress:** [OG-toolkit](#og-toolkit) &middot; [OG-CRM](#og-crm) &middot; [Google-suite replacement](#og-suite) &middot; [OG-TestDesk](#og-testdesk)
+
+---
+
+<a id="og-db"></a>
+
+## OG-DB — buyers-guide reference databases (LIVE)
+**Stack:** static HTML/CSS/JS (no framework, no build step) · a small Node generator · GitHub Pages
+
+website: https://omegagiven.github.io/OG-DB/
+- https://github.com/OmegaGiven/OG-DB
+
+Thirteen hand-built comparison databases &mdash; GPUs, laptops, phones, local AI
+models, robot vacuums, smart glasses, headsets, mechanical keyboards, mice, and
+RAM / SSD / HDD &mdash; each one a single self-contained page with filtering,
+multi-column sort, show/hide columns, row-pinning, expandable detail rows, and a
+source link on every row. The storage DBs track street price over time with
+inline sparkline charts. Built because every &ldquo;best X&rdquo; article is SEO
+filler and affiliate bait; this is just the specs that actually decide a
+purchase, in a table you can sort.
+
+<a id="og-ai-rpg"></a>
 
 ## OG-ai-rpg — self-hosted AI companion/roleplay app, built in a weekend (LIVE)
 **Stack:** Node.js/Express · SQLite · vanilla JS · [koboldcpp](https://github.com/LostRuins/koboldcpp) (local LLM) · [AUTOMATIC1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui) (local Stable Diffusion)
@@ -37,6 +62,8 @@ trying a few of the AI D&D/roleplay apps out there and wanting to see for
 myself how far local LLMs + local image generation have come.
 
 - https://github.com/OmegaGiven/OG-ai-rpg
+
+<a id="og-toolkit"></a>
 
 ## OG-toolkit — rebuilding my whole desktop UX from scratch (WIP)
 
@@ -51,7 +78,6 @@ Linux desktop tool feature-for-feature, and where the popular defaults
 of accepting the limitation.
 
 <img width="1920" height="1075" alt="image" src="https://github.com/user-attachments/assets/258587b7-8bb0-4cc8-b730-a3e435642b25" />
-
 
 **[OG-toolkit](https://github.com/OmegaGiven/OG-toolkit)** — the shared
 crates every app is built on: one config schema, one theming engine, and
@@ -72,6 +98,8 @@ replace waybar, matching everything it does and fixing what it can't.
 
 Desktop: Sway · OS: Arch Linux
 
+<a id="og-3dmodeler"></a>
+
 ## My specific object 3d modeler (LIVE)
 **Stack:** TypeScript · React · Vite · [three.js](https://threejs.org/) (3D/CSG) · Konva (2D canvas)
 
@@ -80,6 +108,7 @@ website: https://omegagiven.github.io/OG-3dmodeler/
 
 <img width="1701" height="1411" alt="image" src="https://github.com/user-attachments/assets/6d05ba4d-ae21-4bf5-b9ab-a7d0e08160e4" />
 
+<a id="omega-stories"></a>
 
 ## Where I write my stories and such as I love writing Fantasy short stories (LIVE)
 **Stack:** [Hugo](https://gohugo.io/) (static site generator) · HTML/CSS/JS themes
@@ -89,6 +118,8 @@ website: https://omegagiven.github.io/omega-stories/
 
 <img width="1146" height="1399" alt="image" src="https://github.com/user-attachments/assets/7bb78c3e-9029-4ae5-9238-82ed6a639aca" />
 
+<a id="og-note"></a>
+
 ## OG-Note A Rich Text Editor that has all the features i wish other note apps
 **Stack:** Svelte · TypeScript · HTML/CSS · [Tauri](https://tauri.app/) (desktop shell, native Kotlin/Swift mobile shims) · [Tiptap](https://tiptap.dev/) (editor) · Yjs (CRDT sync)
 
@@ -97,10 +128,14 @@ website: https://omegagiven.github.io/OG-note/
 
 <img width="503" height="752" alt="image" src="https://github.com/user-attachments/assets/0b490a2e-6e97-4fbb-af1e-f2a51403b101" />
 
+<a id="og-crm"></a>
+
 ## CRM tool for small businesses (BETA Testing stage)
 **Stack:** TypeScript · JavaScript · HTML · [NestJS](https://nestjs.com/) + Prisma (backend, Postgres via Supabase) · React Native / [Expo](https://expo.dev/) (mobile)
 
 - https://github.com/OmegaGiven/OG-fulfillment
+
+<a id="og-suite"></a>
 
 ## Trying to build a suite to replace googles suite of software (WIP)
 **Stack:**
@@ -110,10 +145,14 @@ website: https://omegagiven.github.io/OG-note/
 - v1: https://github.com/OmegaGiven/home-suite-home
 - v2: https://github.com/OmegaGiven/OG-suite
 
+<a id="go-alias"></a>
+
 ## Go alias service (LIVE)
 **Stack:** Rust · [actix-web](https://actix.rs/)
 
 - https://github.com/OmegaGiven/go-alias-rust
+
+<a id="og-testdesk"></a>
 
 ## DB manager / api requester / inspector (WIP)
 **Stack:** Rust · [Iced](https://iced.rs/) (desktop GUI) · sqlx (Postgres/SQLite) · reqwest

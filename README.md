@@ -40,6 +40,8 @@
 website: https://omegagiven.github.io/OG-DB/
 - https://github.com/OmegaGiven/OG-DB
 
+<img width="900" alt="OG-DB GPU database" src="assets/og-db.png" />
+
 Thirteen hand-built comparison databases &mdash; GPUs, laptops, phones, local AI
 models, robot vacuums, smart glasses, headsets, mechanical keyboards, mice, and
 RAM / SSD / HDD &mdash; each one a single self-contained page with filtering,

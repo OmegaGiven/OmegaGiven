@@ -51,22 +51,6 @@ inline sparkline charts. Built because every &ldquo;best X&rdquo; article is SEO
 filler and affiliate bait; this is just the specs that actually decide a
 purchase, in a table you can sort.
 
-<a id="og-ai-rpg"></a>
-
-## OG-ai-rpg — self-hosted AI companion/roleplay app, built in a weekend (LIVE)
-**Stack:** Node.js/Express · SQLite · vanilla JS · [koboldcpp](https://github.com/LostRuins/koboldcpp) (local LLM) · [AUTOMATIC1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui) (local Stable Diffusion)
-<img width="628" height="1347" alt="image" src="https://github.com/user-attachments/assets/2bd96b09-1a95-4944-a4d0-1e3da038cbf5" />
-
-Chat one-on-one with AI characters or run multi-character scenes — AI-generated
-personalities, appearance, and portraits, all running on local models with
-install scripts included. No cloud APIs, no data leaving the box. Built after
-trying a few of the AI D&D/roleplay apps out there and wanting to see for
-myself how far local LLMs + local image generation have come.
-
-- https://github.com/OmegaGiven/OG-ai-rpg
-
-<a id="og-toolkit"></a>
-
 ## OG-toolkit — rebuilding my whole desktop UX from scratch (WIP)
 
 **Stack:** Rust · [Iced](https://iced.rs/) (GUI) · shared crates (og-config, og-theme, og-wayland) · Wayland/Sway · Axum, zbus, D-Bus for system services

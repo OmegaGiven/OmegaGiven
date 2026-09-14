@@ -51,7 +51,7 @@ inline sparkline charts. Built because every &ldquo;best X&rdquo; article is SEO
 filler and affiliate bait; this is just the specs that actually decide a
 purchase, in a table you can sort.
 
-## OG-OS — Arch + Sway + Propritary System management software
+## OG-OS — Arch + Sway + Propritary Operating System Ive built and daily drive
 
 **Stack:** Rust · [Iced](https://iced.rs/) (GUI) · shared crates (og-config, og-theme, og-wayland) · Wayland/Sway · Axum, zbus, D-Bus for system services
 

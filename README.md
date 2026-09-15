@@ -26,9 +26,31 @@
 
 ## Projects
 
-**Live:** [OG-DB](#og-db) &middot; [OG-ai-rpg](#og-ai-rpg) &middot; [3D Modeler](#og-3dmodeler) &middot; [Omega Stories](#omega-stories) &middot; [OG-Note](#og-note) &middot; [go-alias](#go-alias)
+**Live:** [OG TestDesk](#og-testdesk) &middot; [OG-DB](#og-db) &middot; [OG-ai-rpg](#og-ai-rpg) &middot; [3D Modeler](#og-3dmodeler) &middot; [Omega Stories](#omega-stories) &middot; [OG-Note](#og-note) &middot; [go-alias](#go-alias)
 
-**In progress:** [OG-toolkit](#og-toolkit) &middot; [OG-CRM](#og-crm) &middot; [Google-suite replacement](#og-suite) &middot; [OG-TestDesk](#og-testdesk)
+**In progress:** [OG-toolkit](#og-toolkit) &middot; [OG-CRM](#og-crm) &middot; [Google-suite replacement](#og-suite)
+
+---
+
+<a id="og-testdesk"></a>
+
+## OG TestDesk — free SQL client + HTTP client + JSON inspector, unified (LIVE)
+**Stack:** Rust · [Tauri](https://tauri.app/) (desktop shell) · Svelte/SvelteKit · sqlx (Postgres/MySQL/SQLite) · reqwest · [russh](https://github.com/warp-tech/russh) (pure-Rust SSH)
+
+website: https://omegagiven.github.io/OG-TestDesk/
+- https://github.com/OmegaGiven/OG-TestDesk
+- Mac App Store: _pending Apple review — link goes here once approved_
+
+<img width="900" alt="OG TestDesk SQL results grid" src="https://raw.githubusercontent.com/OmegaGiven/OG-TestDesk/main/docs/img/appstore/1-sql.png" />
+
+Think TablePlus + Postman + a JSON viewer, unified into one free, open-source
+desktop app — genuinely free (Apache 2.0, no paywall, no seat licenses) rather
+than three separate paid tools that don't talk to each other. Real row editing
+(safe UPDATE/INSERT/DELETE with a preview), OAuth 2.0/Digest/AWS SigV4 auth,
+pre-request &amp; test scripts, a cookie jar, a local mock server, WebSocket
+and gRPC testing — and a local MCP server built in from the ground up, so an
+AI assistant can query, request, and open tabs directly, behind explicit flags
+you control, nothing reachable by default.
 
 ---
 
@@ -137,10 +159,3 @@ website: https://omegagiven.github.io/OG-note/
 **Stack:** Rust · [actix-web](https://actix.rs/)
 
 - https://github.com/OmegaGiven/go-alias-rust
-
-<a id="og-testdesk"></a>
-
-## DB manager / api requester / inspector (WIP)
-**Stack:** Rust · [Iced](https://iced.rs/) (desktop GUI) · sqlx (Postgres/SQLite) · reqwest
-
-- https://github.com/OmegaGiven/OG-TestDesk

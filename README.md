@@ -39,7 +39,7 @@
 
 website: https://omegagiven.github.io/OG-TestDesk/
 - https://github.com/OmegaGiven/OG-TestDesk
-- Mac App Store: _pending Apple review — link goes here once approved_
+- Mac App Store: https://apps.apple.com/us/app/og-testdesk/id6812359658
 
 <img width="900" alt="OG TestDesk SQL results grid" src="https://raw.githubusercontent.com/OmegaGiven/OG-TestDesk/main/docs/img/appstore/1-sql.png" />
 

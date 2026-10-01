@@ -26,7 +26,7 @@
 
 ## Projects
 
-**Live:** [OG TestDesk](#og-testdesk) &middot; [OG-DB](#og-db) &middot; [OG-ai-rpg](#og-ai-rpg) &middot; [3D Modeler](#og-3dmodeler) &middot; [Omega Stories](#omega-stories) &middot; [OG-Note](#og-note) &middot; [go-alias](#go-alias)
+**Live:** [OG TestDesk](#og-testdesk) &middot; [OG-DB](#og-db) &middot; [OG Paper](#og-paper) &middot; [OG-ai-rpg](#og-ai-rpg) &middot; [3D Modeler](#og-3dmodeler) &middot; [Omega Stories](#omega-stories) &middot; [OG-Note](#og-note) &middot; [go-alias](#go-alias)
 
 **In progress:** [OG-toolkit](#og-toolkit) &middot; [OG-CRM](#og-crm) &middot; [Google-suite replacement](#og-suite)
 
@@ -72,6 +72,27 @@ source link on every row. The storage DBs track street price over time with
 inline sparkline charts. Built because every &ldquo;best X&rdquo; article is SEO
 filler and affiliate bait; this is just the specs that actually decide a
 purchase, in a table you can sort.
+
+<a id="og-paper"></a>
+
+## OG Paper — a truly endless canvas: infinite pan, infinite zoom, files you own (LIVE)
+**Stack:** Rust · [wgpu](https://wgpu.rs/) (WebGPU / WebGL2 / Vulkan / Metal / DX12) · winit · [egui](https://www.egui.rs/) · SQLite (rusqlite) · WebAssembly · GitHub Pages
+
+website: https://omegagiven.github.io/OG-paper/
+- try it in your browser: https://omegagiven.github.io/OG-paper/try/
+- https://github.com/OmegaGiven/OG-paper
+
+<img width="900" alt="OG Paper try mode" src="assets/og-paper.png" />
+
+An open-source take on Endless Paper: write a sentence inside the dot of an
+&ldquo;i&rdquo;, then zoom out until a whole notebook is a speck &mdash; the try
+page goes 10<sup>45</sup> deep without losing a pixel of precision. Pens with
+pressure, dashes and opacity; Excalidraw-style shapes (hachure, cross-hatch,
+zigzag and solid fills, hand-drawn looks, arrows); text; select, move, resize,
+rotate and restyle anything; bookmarks that fly you across any depth; and a
+timeline that replays the canvas as it was at any moment. One Rust engine runs
+on Windows, macOS, Linux, Android and the web, and every canvas is an openly
+documented SQLite file that still opens if the app ever goes away.
 
 ## OG-OS — Arch + Sway + Propritary Operating System Ive built and daily drive
 

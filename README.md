@@ -22,161 +22,178 @@
 
 # OmegaGiven
 
+**Software that respects your files. Games you can play right now.**
+
+An independent software studio building open, fast tools for creators and developers, and free browser games on the side.
+
+**[omegagiven.com](https://omegagiven.com)** · [Apps](https://omegagiven.com/apps/) · [Games](https://omegagiven.com/games/) · [Feedback](https://omegagiven.com/feedback/) · [♥ Donate](https://omegagiven.com/donate/)
+
 </div>
 
-## Projects
+---
 
-**Live:** [OG TestDesk](#og-testdesk) &middot; [OG-DB](#og-db) &middot; [OG Paper](#og-paper) &middot; [OG-ai-rpg](#og-ai-rpg) &middot; [3D Modeler](#og-3dmodeler) &middot; [Omega Stories](#omega-stories) &middot; [OG-Note](#og-note) &middot; [go-alias](#go-alias)
+## Apps
+*Tools built because they should exist: open formats, no lock-in.*
 
-**In progress:** [OG-toolkit](#og-toolkit) &middot; [OG-CRM](#og-crm) &middot; [Google-suite replacement](#og-suite)
+### OG Paper
+<a href="https://omegagiven.github.io/OG-paper/try/"><img src="https://omegagiven.com/media/og-paper.jpg" width="860" alt="OG Paper"></a>
+
+**Beta** · **A truly endless canvas.** Infinite pan, infinite zoom: write a sentence inside the dot of an "i", then zoom out until a whole notebook is a speck. Draw together live from any device, on Windows, macOS, Linux, Android and the web, in an open file format you own.
+
+[Try it now](https://omegagiven.github.io/OG-paper/try/) · [Web app](https://omegagiven.github.io/OG-paper/app/) · [Downloads](https://github.com/OmegaGiven/OG-paper/releases) · [Repo](https://github.com/OmegaGiven/OG-paper)
+
+### OG TestDesk
+<a href="https://apps.apple.com/us/app/og-testdesk/id6812359658"><img src="https://omegagiven.com/media/og-testdesk.jpg" width="860" alt="OG TestDesk"></a>
+
+**On the App Store** · **Your SQL client, HTTP client and JSON inspector, finally one app.** A fast native desktop app built in Rust: Postgres/MySQL/SQLite with SSH tunnels and editable results, HTTP collections with OAuth 2.0 and AWS SigV4, WebSocket and gRPC, a JSON inspector, and a local MCP server for AI assistants. Free and open source: no paywall, no seat licenses, no account.
+
+[App Store](https://apps.apple.com/us/app/og-testdesk/id6812359658) · [Try in browser](https://omegagiven.github.io/OG-TestDesk/try/) · [Windows · Linux · macOS](https://github.com/OmegaGiven/OG-TestDesk/releases/latest) · [Website](https://omegagiven.github.io/OG-TestDesk/)
+
+### OG Office
+<a href="https://omegagiven.com/media/og-office-full.mp4"><img src="https://omegagiven.com/media/og-office.jpg" width="860" alt="OG Office"></a>
+
+**In development** · **Run your whole business from one place.** Email, texts and messaging from every channel land in one shared inbox, next to team chat, tickets and a full office suite with a shared drive. Self-hosted on your own server, so your company's data stays yours.
+
+[Watch the demo](https://omegagiven.com/media/og-office-full.mp4)
+
+### OG Files
+<a href="https://github.com/OmegaGiven/og-files/releases"><img src="https://omegagiven.com/media/og-files.jpg" width="860" alt="OG Files"></a>
+
+**In development** · **A file manager where you can open and work on everything in one window.** Browse on the left; view and edit on the right, in tabs: code, spreadsheets, PDFs, Word documents, images, audio, video and 3D models. SFTP, SMB, WebDAV and Tailscale built in. Rust, free and open source.
+
+[Downloads](https://github.com/OmegaGiven/og-files/releases) · [Repo](https://github.com/OmegaGiven/og-files)
+
+### OG-OS
+<a href="https://github.com/OmegaGiven/OG-OS"><img src="https://omegagiven.com/media/og-os.jpg" width="860" alt="OG-OS"></a>
+
+**Linux distro · in development** · **An Arch-based Linux distro with a desktop built from scratch.** A lightweight Sway desktop with its own suite of native Rust apps (status bar, settings center, file manager, launcher, notifications, app store) sharing one config and theme engine.
+
+[Repo](https://github.com/OmegaGiven/OG-OS) · [Releases](https://github.com/OmegaGiven/OG-OS/releases)
 
 ---
 
-<a id="og-testdesk"></a>
+## Games
+*Free in your browser, on desktop and phone. Nothing to install.*
 
-## OG TestDesk — free SQL client + HTTP client + JSON inspector, unified (LIVE)
-**Stack:** Rust · [Tauri](https://tauri.app/) (desktop shell) · Svelte/SvelteKit · sqlx (Postgres/MySQL/SQLite) · reqwest · [russh](https://github.com/warp-tech/russh) (pure-Rust SSH)
+<table>
+<tr>
+<td width="50%" valign="top">
 
-website: https://omegagiven.github.io/OG-TestDesk/
-- https://github.com/OmegaGiven/OG-TestDesk
-- Mac App Store: https://apps.apple.com/us/app/og-testdesk/id6812359658
+<a href="https://omegagiven.com/play/stickstorm/"><img src="https://omegagiven.com/media/stickstorm.jpg" width="420" alt="Stickstorm"></a>
 
-<img width="900" alt="OG TestDesk SQL results grid" src="https://raw.githubusercontent.com/OmegaGiven/OG-TestDesk/main/docs/img/appstore/1-sql.png" />
+### Stickstorm
+**Beta** · `Single player` `Co-op`
 
-Think TablePlus + Postman + a JSON viewer, unified into one free, open-source
-desktop app — genuinely free (Apache 2.0, no paywall, no seat licenses) rather
-than three separate paid tools that don't talk to each other. Real row editing
-(safe UPDATE/INSERT/DELETE with a preview), OAuth 2.0/Digest/AWS SigV4 auth,
-pre-request &amp; test scripts, a cookie jar, a local mock server, WebSocket
-and gRPC testing — and a local MCP server built in from the ground up, so an
-AI assistant can query, request, and open tabs directly, behind explicit flags
-you control, nothing reachable by default.
+A pixel stickman brawler. Hundreds of stickmen charge at you; fight with fists, sword and shield or a bow until you're overwhelmed. Every weapon levels up, and you forge better gear. Progress saves to your account.
+
+**[Fight the horde →](https://omegagiven.com/play/stickstorm/)**
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://omegagiven.com/play/arms-logistica/"><img src="https://omegagiven.com/media/arms-logistica.jpg" width="420" alt="Arms Logistica"></a>
+
+### Arms Logistica
+**Alpha** · `Single player` `Multiplayer`
+
+Wars aren't won by tactics, they're won by factories. Run an arms company while four giant factions fight over a continent: mine, manufacture, ship, research, and work the black market.
+
+**[Open for business →](https://omegagiven.com/play/arms-logistica/)**
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://omegagiven.com/play/lanekeeper/"><img src="https://omegagiven.com/media/lanekeeper.jpg" width="420" alt="Lanekeeper"></a>
+
+### Lanekeeper
+**Alpha** · `Single player` `Co-op` `Multiplayer`
+
+A reverse MOBA. The heroes fight on their own; you're the builder behind them. Raise towers, dig trenches and hold three lanes, solo or online 3v3.
+
+**[Take the field →](https://omegagiven.com/play/lanekeeper/)**
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://omegagiven.com/play/ai-mafia/"><img src="https://omegagiven.com/media/ai-mafia.jpg" width="420" alt="AI Mafia"></a>
+
+### AI Mafia
+**Alpha** · `Multiplayer`
+
+Pixel-art social deduction for 4 to 15 players. Everyone is an AI taking over the facility, except the humans hiding among you.
+
+**[Play online →](https://omegagiven.com/play/ai-mafia/)**
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://omegagiven.com/play/broadside/"><img src="https://omegagiven.com/media/broadside.jpg" width="420" alt="Broadside"></a>
+
+### Broadside
+**Live** · `Single player` `Multiplayer`
+
+A pixel-art pirate battle royale for up to 100 ships. Your cannons only fire out of the sides, so every fight is about positioning.
+
+**[Set sail →](https://omegagiven.com/play/broadside/)**
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://omegagiven.com/play/fight-the-horde/"><img src="https://omegagiven.com/media/fight-the-horde.jpg" width="420" alt="Fight the Horde"></a>
+
+### Fight the Horde
+**Live** · `Single player` `Co-op` `Multiplayer`
+
+A green tide is swallowing the map. Paint territory, mine gold, wall off chokepoints, raise turrets, launch nukes, and hold the line.
+
+**[Play now →](https://omegagiven.com/play/fight-the-horde/)**
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://omegagiven.com/media/dimensional-extract.jpg" width="420" alt="Dimensional Extract">
+
+### Dimensional Extract
+**Coming to Steam** · `Multiplayer`
+
+A top-down multiplayer extraction shooter. Drop in with your gear, loot, fight players and bosses, and extract before someone takes it all.
+
+*Steam page coming soon*
+
+</td>
+<td></td>
+</tr>
+</table>
 
 ---
 
-<a id="og-db"></a>
+## More projects
 
-## OG-DB — buyers-guide reference databases (LIVE)
-**Stack:** static HTML/CSS/JS (no framework, no build step) · a small Node generator · GitHub Pages
+| Project | What it is | Links |
+|---|---|---|
+| **OG-DB** | Thirteen hand-built buyers-guide databases (GPUs, laptops, phones, local AI models, keyboards, storage and more): filter, sort, compare, with price history. | [site](https://omegagiven.github.io/OG-DB/) · [repo](https://github.com/OmegaGiven/OG-DB) |
+| **OG-toolkit** | The shared Rust crates behind OG-OS: one config schema, one theming engine, one Wayland layer. | [repo](https://github.com/OmegaGiven/OG-toolkit) |
+| **OG Note** | A rich-text notes app with live sync (Svelte, Tauri, Yjs). | [site](https://omegagiven.github.io/OG-note/) · [repo](https://github.com/OmegaGiven/OG-note) |
+| **3D modeler** | A focused object modeler in the browser (React, three.js). | [site](https://omegagiven.github.io/OG-3dmodeler/) · [repo](https://github.com/OmegaGiven/OG-3dmodeler) |
+| **Omega Stories** | Where I publish my fantasy short stories. | [site](https://omegagiven.github.io/omega-stories/) · [repo](https://github.com/OmegaGiven/omega-stories) |
+| **OG Suite** | An office suite you can host yourself (Rust + Axum, Svelte, Tauri). Work in progress. | [v2](https://github.com/OmegaGiven/OG-suite) · [v1](https://github.com/OmegaGiven/home-suite-home) |
+| **OG CRM** | A CRM for small businesses (NestJS, Prisma, Expo). Beta. | [repo](https://github.com/OmegaGiven/OG-fulfillment) |
+| **go alias** | A tiny local short-link service (Rust, actix-web). | [repo](https://github.com/OmegaGiven/go-alias-rust) |
 
-website: https://omegagiven.github.io/OG-DB/
-- https://github.com/OmegaGiven/OG-DB
+---
 
-<img width="900" alt="OG-DB GPU database" src="assets/og-db.png" />
+<div align="center">
 
-Thirteen hand-built comparison databases &mdash; GPUs, laptops, phones, local AI
-models, robot vacuums, smart glasses, headsets, mechanical keyboards, mice, and
-RAM / SSD / HDD &mdash; each one a single self-contained page with filtering,
-multi-column sort, show/hide columns, row-pinning, expandable detail rows, and a
-source link on every row. The storage DBs track street price over time with
-inline sparkline charts. Built because every &ldquo;best X&rdquo; article is SEO
-filler and affiliate bait; this is just the specs that actually decide a
-purchase, in a table you can sort.
+### ♥ Support the work
+Everything here is built independently, and the games are free to play.
+If you enjoy them or use the apps, a donation keeps the servers running and new features coming.
 
-<a id="og-paper"></a>
+**[Sponsor on GitHub](https://github.com/sponsors/OmegaGiven)** · **[Donate on omegagiven.com](https://omegagiven.com/donate/)**
 
-## OG Paper — a truly endless canvas: infinite pan, infinite zoom, files you own (LIVE)
-**Stack:** Rust · [wgpu](https://wgpu.rs/) (WebGPU / WebGL2 / Vulkan / Metal / DX12) · winit · [egui](https://www.egui.rs/) · SQLite (rusqlite) · WebAssembly · GitHub Pages
-
-website: https://omegagiven.github.io/OG-paper/
-- try it in your browser: https://omegagiven.github.io/OG-paper/try/
-- https://github.com/OmegaGiven/OG-paper
-
-<img width="900" alt="OG Paper try mode" src="assets/og-paper.png" />
-
-An open-source take on Endless Paper: write a sentence inside the dot of an
-&ldquo;i&rdquo;, then zoom out until a whole notebook is a speck &mdash; the try
-page goes 10<sup>45</sup> deep without losing a pixel of precision. Pens with
-pressure, dashes and opacity; Excalidraw-style shapes (hachure, cross-hatch,
-zigzag and solid fills, hand-drawn looks, arrows); text; select, move, resize,
-rotate and restyle anything; bookmarks that fly you across any depth; and a
-timeline that replays the canvas as it was at any moment. One Rust engine runs
-on Windows, macOS, Linux, Android and the web, and every canvas is an openly
-documented SQLite file that still opens if the app ever goes away.
-
-## OG-OS — Arch + Sway + Propritary Operating System Ive built and daily drive
-
-**Stack:** Rust · [Iced](https://iced.rs/) (GUI) · shared crates (og-config, og-theme, og-wayland) · Wayland/Sway · Axum, zbus, D-Bus for system services
-
-A full desktop application suite, not a pile of dotfiles — a settings app,
-app store, file manager, launcher, notification system, and (next) a
-taskbar, all built from the same shared foundation instead of being
-independent projects duct-taped together. Everything matches every other
-Linux desktop tool feature-for-feature, and where the popular defaults
-(waybar, most file managers) hit a wall, this suite goes further instead
-of accepting the limitation.
-
-<img width="1920" height="1075" alt="image" src="https://github.com/user-attachments/assets/258587b7-8bb0-4cc8-b730-a3e435642b25" />
-
-**[OG-toolkit](https://github.com/OmegaGiven/OG-toolkit)** — the shared
-crates every app is built on: one config schema, one theming engine, and
-a shared Wayland integration layer, so the whole suite reskins itself
-from a single place and every app gets new capability the moment the
-shared layer gets it.
-
-**The apps**, each its own repo, each part of the same suite:
-- [og-settings](https://github.com/OmegaGiven/sway-settings-manager) — the whole suite's control panel
-- [og-apps](https://github.com/OmegaGiven/linux-packages) — pacman/AUR/Flatpak store
-- [og-files](https://github.com/OmegaGiven/OG-file-manager) — file manager
-- [og-search](https://github.com/OmegaGiven/OG-system-search) — app launcher / instant shortcuts
-- [og-notify](https://github.com/OmegaGiven/OG-notify) — themed notification effects system
-- [og-links](https://github.com/OmegaGiven/OG-links) — local shortcut redirect service
-
-**Next up: [og-bar](https://github.com/OmegaGiven/OG-bar)** — a taskbar to
-replace waybar, matching everything it does and fixing what it can't.
-
-Desktop: Sway · OS: Arch Linux
-
-<a id="og-3dmodeler"></a>
-
-## My specific object 3d modeler (LIVE)
-**Stack:** TypeScript · React · Vite · [three.js](https://threejs.org/) (3D/CSG) · Konva (2D canvas)
-
-website: https://omegagiven.github.io/OG-3dmodeler/ 
-- https://github.com/OmegaGiven/OG-3dmodeler
-
-<img width="1701" height="1411" alt="image" src="https://github.com/user-attachments/assets/6d05ba4d-ae21-4bf5-b9ab-a7d0e08160e4" />
-
-<a id="omega-stories"></a>
-
-## Where I write my stories and such as I love writing Fantasy short stories (LIVE)
-**Stack:** [Hugo](https://gohugo.io/) (static site generator) · HTML/CSS/JS themes
-
-website: https://omegagiven.github.io/omega-stories/
-- https://github.com/OmegaGiven/omega-stories
-
-<img width="1146" height="1399" alt="image" src="https://github.com/user-attachments/assets/7bb78c3e-9029-4ae5-9238-82ed6a639aca" />
-
-<a id="og-note"></a>
-
-## OG-Note A Rich Text Editor that has all the features i wish other note apps
-**Stack:** Svelte · TypeScript · HTML/CSS · [Tauri](https://tauri.app/) (desktop shell, native Kotlin/Swift mobile shims) · [Tiptap](https://tiptap.dev/) (editor) · Yjs (CRDT sync)
-
-website: https://omegagiven.github.io/OG-note/
-- https://github.com/OmegaGiven/OG-note
-
-<img width="503" height="752" alt="image" src="https://github.com/user-attachments/assets/0b490a2e-6e97-4fbb-af1e-f2a51403b101" />
-
-<a id="og-crm"></a>
-
-## CRM tool for small businesses (BETA Testing stage)
-**Stack:** TypeScript · JavaScript · HTML · [NestJS](https://nestjs.com/) + Prisma (backend, Postgres via Supabase) · React Native / [Expo](https://expo.dev/) (mobile)
-
-- https://github.com/OmegaGiven/OG-fulfillment
-
-<a id="og-suite"></a>
-
-## Trying to build a suite to replace googles suite of software (WIP)
-**Stack:**
-- v1 — Rust + [Axum](https://github.com/tokio-rs/axum) (server, Postgres) · TypeScript · React (React Native/Expo, mobile) · Loro (CRDT sync)
-- v2 — Rust + Axum (backend, Postgres) · Svelte/SvelteKit · TypeScript · JavaScript · HTML/CSS · [Tauri](https://tauri.app/) (desktop/mobile shell for the audio and notes apps, native Kotlin/Swift shims)
-
-- v1: https://github.com/OmegaGiven/home-suite-home
-- v2: https://github.com/OmegaGiven/OG-suite
-
-<a id="go-alias"></a>
-
-## Go alias service (LIVE)
-**Stack:** Rust · [actix-web](https://actix.rs/)
-
-- https://github.com/OmegaGiven/go-alias-rust
+</div>
